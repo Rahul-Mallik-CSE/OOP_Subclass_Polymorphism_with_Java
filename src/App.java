@@ -28,6 +28,9 @@ class Horse extends Animal {
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        System.out.println("Subclass Polymorphism Example: ");
+        Animal a = new Animal();
+        Animal b = new Bird();
+        Animal h = new Horse();
     }
 }
