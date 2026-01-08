@@ -15,6 +15,16 @@ class Bird extends Animal {
     }
 }
 
+class Horse extends Animal {
+    String breed;
+    void eat() {
+        System.out.println("Horse is eating hay");
+    }
+    void sleep() {
+        System.out.println("Horse is sleeping");
+    }
+}
+
 
 public class App {
     public static void main(String[] args) throws Exception {
