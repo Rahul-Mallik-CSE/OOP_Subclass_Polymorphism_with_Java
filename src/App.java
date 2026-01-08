@@ -32,5 +32,12 @@ public class App {
         Animal a = new Animal();
         Animal b = new Bird();
         Animal h = new Horse();
+        a.eat(); // Animal is eating
+        b.eat(); // Bird is eating seeds
+        h.eat(); // Horse is eating hay
+        // h.sleep(); // We cannot call sleep() method using Animal reference because Animal class does not have sleep() method
+        //we can only call methods that are present in the Animal class
+
+        
     }
 }
