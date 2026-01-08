@@ -38,6 +38,11 @@ public class App {
         // h.sleep(); // We cannot call sleep() method using Animal reference because Animal class does not have sleep() method
         //we can only call methods that are present in the Animal class
 
-        
+        //if we want to call sleep() method, we need to typecast h to Horse class
+        if(h instanceof Horse) {
+            Horse horse = (Horse) h;
+        horse.sleep(); // Horse is sleeping
+
+        }
     }
 }
